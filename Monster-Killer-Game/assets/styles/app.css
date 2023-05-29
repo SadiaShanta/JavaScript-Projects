@@ -1,0 +1,126 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background: #2c2c2c;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 1rem 0.5rem;
+}
+
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 80%;
+  height: 2rem;
+  color: #579cc2;
+  border: 1px solid #17c0d0;
+}
+
+progress[value]::-webkit-progress-bar,
+progress[value] {
+  background-color: #eee;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #17c0d0;
+  transition: all 0.2s ease-out;
+}
+
+progress[value]::-moz-progress-bar {
+  background-color: #17c0d0;
+  transition: all 0.2s ease-out;
+}
+
+button {
+  font: inherit;
+  background: #24a0ed;
+  border: 3px solid #24a0ed;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: #000000;
+  border-color: #24a0ed;
+}
+
+#health-levels,
+#controls {
+  margin: 2rem auto;
+  width: 30rem;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background: white;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+}
+
+#bonus-life {
+  font-weight: bold;
+  color: white;
+  background: #ff0062;
+  border: 1px solid #ff0062;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 0.5rem;
+}
+#attack-btn{
+  background: #FF0000;
+  border: 3px solid #FF0000;
+}
+#attack-btn:focus {
+  outline: none;
+}
+
+#attack-btn:hover,
+#attack-btn:active {
+  background: #000000;
+  border-color: #FF0000;
+}
+#strong-attack-btn{
+  background: #d72631;
+  border: 3px solid #d72631;
+}
+#strong-attack-btn:focus {
+  outline: none;
+}
+
+#strong-attack-btn:hover,
+#strong-attack-btn:active {
+  background: #000000;
+  border-color: #d72631;
+}
+
+#heal-btn{
+  background: #0eb991;
+  border: 3px solid #0eb991;
+}
+#heal-btn:focus {
+  outline: none;
+}
+
+#heal-btn:hover,
+#heal-btn:active {
+  background: #000000;
+  border-color: #0eb991;
+}
